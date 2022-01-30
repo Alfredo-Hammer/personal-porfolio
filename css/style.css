@@ -167,7 +167,7 @@ header .follow a:hover{
 }
 
 .home .image img{
-    width:80%;
+    width:70%;
     border-radius: 100%;
     border: 3px solid #f9ca24;
 }
@@ -202,6 +202,7 @@ header .follow a:hover{
     font-size: 1.7rem;
     color:#eee;
     padding:.5rem 0;
+    text-transform: none;
 }
 
 .about .row-1{
@@ -244,6 +245,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     gap:1.5rem;
     padding: 0.5rem 0;
+    text-transform: none;
 }
 
 .about .row-1 .content .box-container .box{
@@ -652,4 +654,10 @@ header .follow a:hover{
         padding-right: 0;
     }
 
+}
+hr{
+    width: 5%;
+    text-align: center;
+    text-decoration: dotted;
+    
 }
