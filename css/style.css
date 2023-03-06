@@ -412,7 +412,7 @@ header .follow a:hover{
 }
 
 .experience .box-container .box .content span{
-    color:rgb(14, 13, 13);
+    color:rgb(78, 75, 75);
     font-size: 1.7rem;
     background:var(--main-color);
     border-radius: 50rem;
@@ -422,7 +422,7 @@ header .follow a:hover{
 .experience .box-container .box .content h3{
     font-size: 2.5rem;
     padding:.5rem 0;
-    color:#111;
+    color:#24b407;
 }
 
 .experience .box-container .box .content p{
