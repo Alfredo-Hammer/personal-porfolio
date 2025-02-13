@@ -86,32 +86,3 @@ header h1 {
   bottom: 0;
   width: 100%;
 }
-
-/* Media queries */
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-
-  .title h2 {
-    font-size: 16px;
-    padding: 30px;
-  }
-}
-
-@media (max-width: 320px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
-
-  .title h2 {
-    font-size: 14px;
-    padding: 20px;
-  }
-}
