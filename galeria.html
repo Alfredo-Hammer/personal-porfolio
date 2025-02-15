@@ -58,10 +58,21 @@
       <img src="electric/imagen5.jpg" alt="Imagen 11">
     </div>
   </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+    <img id="lightbox-img" src="" alt="">
+    <span class="next" onclick="changeImage(1)">&#10095;</span>
+  </div>
+
   <!-- Footer -->
   <footer class="footer">
     <p>Creado por <span>Alfredo Hammer</span> | Todos los derechos reservados! 2025</p>
   </footer>
+
+  <script src="js/lightbox.js"></script>
 </body>
 
 </html>
